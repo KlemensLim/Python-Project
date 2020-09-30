@@ -2,7 +2,7 @@
 print("Title of program: Encouragement bot")
 print()
 while True:
-  description = input("Use one word to describe how you are feeling right now.")
+  description = input("Hi there! Could you use one word to describe how you are feeling right now?")
 
   list_of_words = description.split()
 
@@ -53,7 +53,7 @@ while True:
       encouragement += encouragement_list[i] + ", "
     encouragement += "and " + encouragement_list[-1]
     
-    output = "It seems that you are feeling quite " + feelings + ". Always remember "+ encouragement + "! Hope you feel better :)"
+    output = "It seems that you are feeling quite " + feelings + ". Always remember "+ encouragement + "! Hope you feel better :) Bye!!!"
 
   print()
   print(output)
